@@ -45,3 +45,7 @@ button {
     button:hover {
         background-color: lightgreen;
     }
+
+h3 {
+    padding-top: 10px;
+}
