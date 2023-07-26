@@ -1,0 +1,11 @@
+﻿@model IEnumerable<Vehicle>
+<h2>Current Collection of Vehicles</h2>
+
+<form action="/vehicles/new">
+<button type="submit">Add a Vehicle</button>    
+</form>
+
+@foreach(var e in Model)
+{
+    <h3>@e.Year <a href="/vehicles/@e.Id">@e.Make @e.Model</a>, @e.Color</h3>
+}

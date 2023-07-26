@@ -16,3 +16,32 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+input {
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 20px;
+    border: solid;
+    border-radius: 10px;
+    border-style: groove;
+    background-color: lightgrey
+}
+
+label {
+    font-size: 20px;
+    display: flex;
+}
+
+button {
+    border: groove;
+    border-radius: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: mediumseagreen;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+    
+    button:hover {
+        background-color: lightgreen;
+    }

@@ -1,0 +1,15 @@
+﻿@model Vehicle
+
+<h2>@Model.Year @Model.Make @Model.Model, @Model.Color</h2>
+
+<form method="post" action="/vehicles/delete/@Model.Id">
+    <button type="submit">Delete Vehicle</button>
+</form>
+
+<form action="/vehicles/@Model.Id/edit">
+    <button type="submit">Edit</button>
+</form>
+
+<form action="/vehicles">
+    <button type="submit">All Vehicles</button>
+</form>
